@@ -1,0 +1,138 @@
+.destination-container{
+    margin:3rem 5rem;
+}
+
+.destination-container h1{
+    font-size: 3rem;
+}
+
+.first-desc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.first-desc .left{
+    width:45%;
+    text-align: start;
+    font-size: 1.1rem;
+}
+
+.first-desc .left h2{
+    padding-bottom: 1rem;
+}
+
+.first-desc .right{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+}
+
+.first-desc .right img{
+    width:49%;
+    height:350px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: -1px 1px 62px -18px black;
+
+}
+
+.first-desc .right img:nth-child(2){
+    position: absolute;
+    top:-10%;
+    right: 0;;
+}
+
+
+
+.second-desc{
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.second-desc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.second-desc .right{
+    width:45%;
+    text-align: start;
+    font-size: 1.1rem;
+}
+
+.second-desc .right h2{
+    padding-bottom: 1rem;
+}
+
+.second-desc .left{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+}
+
+.second-desc .left img{
+    width:49%;
+    height:350px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: -1px 1px 62px -18px black;
+}
+
+
+.second-desc .left img:nth-child(2){
+    position: absolute;
+    top:10%;
+    right: 0;
+}
+
+
+
+@media screen and (max-width:850px) { 
+    .destination-container{
+        margin: 4rem 2rem;
+    }
+    .first-desc{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 4.5rem;
+    }
+    .first-desc .left{
+        width: 100%;
+    }
+
+    .first-desc .right{
+        width:100%;
+        margin: 1.8rem;
+    }
+    .first-desc .right img{
+        height:250px;
+    }
+
+    .second-desc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4.5rem;
+    }
+    .second-desc .right{
+        width: 100%;
+    }
+
+    .second-desc .left{
+        width:100%;
+        margin: 1.8rem;
+    }
+    .second-desc .left img{
+        height:250px;
+    }
+}

@@ -1,0 +1,62 @@
+.trip-wrapper{
+    margin:4rem 4rem;
+}
+.outer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.t-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    gap:10rem;
+    overflow-x: scroll;
+    scrollbar-width: 0;
+    position: relative;
+    right: 0;
+    max-width: 100%;
+}
+
+.t-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+    border-radius: 13px;
+    width: 16rem;
+    background-color: rgb(155, 156, 156);
+    border:  1px solid rgb(8, 0, 255);
+    padding: 0.4rem 0.4rem 0.4 rem 4rem;
+    transition: all 0.3s ease-in;
+}
+
+.t-card img{
+   height: 16rem;
+   width: 16rem;
+}
+.t-card img:hover{
+transform: scale(1.1);
+}
+.t-card h4{
+    margin: 0.5rem;
+}
+.t-card p{
+    margin: 1rem;
+    padding: 0.1rem;
+    font-size: 1rem;
+}
+
+.t-card:hover{
+    transform: scale(1.05);
+    background-color: rgb(188, 228, 245);
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    box-shadow: -1px 1px 62px -18px black;
+}
+
