@@ -9,7 +9,7 @@ function SendForm(){
           <input placeholder="Email"/>
           <input placeholder="Subject"/>
           <textarea placeholder="Message"></textarea>
-          <button>Send Message</button>
+          <button className='btn'>Send Message</button>
         </form>
       </div>
     );
