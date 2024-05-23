@@ -31,7 +31,7 @@
 .f-right{
     position: relative;
     top:2rem;
-    right:0;
+    right:8%;
 }
 
 @media screen and (max-width:550px) {
@@ -45,7 +45,11 @@
     }
     .f-left{
         position: relative;
+        left:0;
         bottom:2rem;
     }
-    
+    .f-right{
+        position: relative;
+        right:0
+    }
 }

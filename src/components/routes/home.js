@@ -14,7 +14,7 @@ function Home (){
         imgname="https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704_640.jpg"
         title="Welcome to Your Ultimate Tour Hub"
         text="Discover breathtaking destinations, exciting adventures, and unforgettable experiences"
-        btntext="Plan Your Next Adventure"
+        btntext="Plan Your Trips in Holidays"
         btnclass="show"
         url="/"
         />

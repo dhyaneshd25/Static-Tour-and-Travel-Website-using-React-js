@@ -3,7 +3,7 @@ import Destination from './utils/destinationlist';
 
 function Trip(){
     return (
-        <section className='trip-wrapper'>
+        <div className='trip-wrapper'>
          <h1 >
               Recent Trips
             </h1>
@@ -13,19 +13,6 @@ function Trip(){
        <div className='outer-container'>
            
             <div className='t-container'>
-                {/*
-                {Destination.map((card,in)=>{
-                    return(
-                        <div className="t-card">
-                        <div className='t-image'>
-                            <img/>
-                        </div>
-                        <h4>kf;rkgrf;oetkfgktlkh</h4>
-                        <p>fhidjfirgilrkjflgkjtgjwrio nhf he ehejke fe fje fje jfjf ije fjwef j e fhfehfej fljefe fefef efefefefi</p>
-                    </div>
-                    );
-                })}
-            */}
             {
                 Destination.map((car)=>{
                     return(
@@ -43,7 +30,7 @@ function Trip(){
 
             </div>
         </div>
-        </section>
+        </div>
     );
 }
 
