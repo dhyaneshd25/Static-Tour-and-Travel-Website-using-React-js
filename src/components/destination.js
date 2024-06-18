@@ -21,8 +21,9 @@ When it comes to the most gorgeous best places in South India, places to visit i
        
 
         <div className="right">
-            <img src="https://www.tripsavvy.com/thmb/KC2oo8gYqZ1mbXbvaR31r3jKoJs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/172124032-56a3c1235f9b58b7d0d39a07.jpg"/>
-             <img src="https://blog.thomascook.in/wp-content/uploads/2018/04/Coorg.jpg"/>
+            <img className="f-img1"src="https://www.tripsavvy.com/thmb/KC2oo8gYqZ1mbXbvaR31r3jKoJs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/172124032-56a3c1235f9b58b7d0d39a07.jpg"/>
+             <img className="f-img2
+             "src="https://blog.thomascook.in/wp-content/uploads/2018/04/Coorg.jpg"/>
         </div>
         </div>
 

@@ -37,15 +37,15 @@
     object-fit: cover;
     border-radius: 6px;
     box-shadow: -1px 1px 62px -18px black;
-
+    transition: 10ms all ease-in-out;
 }
 
-.first-desc .right img:nth-child(2){
+
+.first-desc .right .f-img2{
     position: absolute;
     top:-10%;
     right: 0;;
 }
-
 
 
 .second-desc{

@@ -56,8 +56,8 @@ button{
     transition: 0.2s ease-in-out;
 }
 button:hover{
-    background-color: chartreuse;
-    color:crimson;
+    background-color: rgb(255, 162, 0);
+    color:rgb(42, 115, 24);
     transform: scale(1.1);
 }
 .mobilemenu{

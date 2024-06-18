@@ -1,5 +1,5 @@
 .trip-wrapper{
-    margin:4rem;
+    margin:2rem;
 }
 .outer-container{
     display: flex;
@@ -8,6 +8,7 @@
     align-items: center;
     gap: 2rem;
     margin-top: 2rem;
+    
 }
 .t-container{
     display: flex;
